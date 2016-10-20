@@ -50,7 +50,7 @@ Run example:
 $ php artisan serve
 ```
 
-Open browser at http://localhost:8080/
+Open browser at http://localhost:8000/
 
 ## Workspace
 Your workspace should look like:
