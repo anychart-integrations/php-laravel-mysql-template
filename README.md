@@ -7,7 +7,8 @@ This example shows how to use Anychart library with the PHP programming language
 ## Running
 
 To use this sample you must have PHP installed (if not, please, install it http://php.net/manual/en/faq.installation.php);
-MySQL installed and running (if not please check out https://dev.mysql.com/downloads/installer/ and follow instructions http://dev.mysql.com/doc/refman/5.7/en/installing.html)
+MySQL installed and running (if not please check out https://dev.mysql.com/downloads/installer/ and follow instructions http://dev.mysql.com/doc/refman/5.7/en/installing.html) 
+and Composer (if not please check out https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
 To check your installations, run the following command in the command line:
 ```
@@ -18,6 +19,8 @@ Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
     with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies
 $ mysql --version
 mysql  Ver 14.14 Distrib 5.5.52, for debian-linux-gnu (x86_64) using readline 6. # sample output
+$ composer -V
+Composer version 1.2.1 2016-09-12 11:27:19 # sample output
 ```
 
 To start this example run commands listed below.
