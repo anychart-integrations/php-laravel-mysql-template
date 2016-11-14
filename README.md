@@ -6,9 +6,9 @@ This example shows how to use Anychart library with the PHP programming language
 
 ## Running
 
-To use this sample you must have PHP installed (if not, please, install it http://php.net/manual/en/faq.installation.php);
-MySQL installed and running (if not please check out https://dev.mysql.com/downloads/installer/ and follow instructions http://dev.mysql.com/doc/refman/5.7/en/installing.html) 
-and Composer (if not please check out https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
+To use this sample you must have PHP installed, if not, please, install it as described [here](http://php.net/manual/en/faq.installation.php);
+MySQL installed and running, if not, please, check out [MySQL download page](https://dev.mysql.com/downloads/installer/) and follow [these instructions](http://dev.mysql.com/doc/refman/5.7/en/installing.html);
+and Composer, if not, please, check out [Composer installation guide](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
 To check your installations, run the following command in the command line:
 ```
@@ -17,8 +17,10 @@ PHP 5.6.27-1+deb.sury.org~trusty+1 (cli)  # sample output
 Copyright (c) 1997-2016 The PHP Group
 Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
     with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies
+
 $ mysql --version
 mysql  Ver 14.14 Distrib 5.5.52, for debian-linux-gnu (x86_64) using readline 6. # sample output
+
 $ composer -V
 Composer version 1.2.1 2016-09-12 11:27:19 # sample output
 ```
@@ -46,11 +48,14 @@ $ php -m
 ```
 If there isn't 'mysql', 'xml' or 'mbstring' in the list, install it:
 ```
-$ sudo apt-get install php{your_php_version}-mysql # e.g. sudo apt-get install php5.6-mysql to php-mysql instsll
+# to install php-mysql, run:
+$ sudo apt-get install php{your_php_version}-mysql # e.g. sudo apt-get install php5.6-mysql
 
-$ sudo apt-get install php{your_php_version}-mbstring # e.g. sudo apt-get installphp5.6-mbstringl to php-mbstring instsll
+# to install php-mbstring, run:
+$ sudo apt-get install php{your_php_version}-mbstring # e.g. sudo apt-get installphp5.6-mbstring
 
-$ sudo apt-get install php{your_php_version}-xml # e.g. sudo apt-get install php5.6-xml to php-xml instsll
+# to install php-xml, run:
+$ sudo apt-get install php{your_php_version}-xml # e.g. sudo apt-get install php5.6-xml
 ```
 
 Set up MySQL database, use -u -p flags to provide username and password:
