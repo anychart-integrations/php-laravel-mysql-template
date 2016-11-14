@@ -52,7 +52,7 @@ If there isn't 'mysql', 'xml' or 'mbstring' in the list, install it:
 $ sudo apt-get install php{your_php_version}-mysql # e.g. sudo apt-get install php5.6-mysql
 
 # to install php-mbstring, run:
-$ sudo apt-get install php{your_php_version}-mbstring # e.g. sudo apt-get installphp5.6-mbstring
+$ sudo apt-get install php{your_php_version}-mbstring # e.g. sudo apt-get install php5.6-mbstring
 
 # to install php-xml, run:
 $ sudo apt-get install php{your_php_version}-xml # e.g. sudo apt-get install php5.6-xml
