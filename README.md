@@ -40,6 +40,19 @@ Install dependencies:
 $ composer install
 ```
 
+Ensure you have php-mysql, php-mbstring, php-xml being installed, run:
+```
+$ php -m
+```
+If there isn't 'mysql', 'xml' or 'mbstring' in the list, install it:
+```
+$ sudo apt-get install php{your_php_version}-mysql # e.g. sudo apt-get install php5.6-mysql to php-mysql instsll
+
+$ sudo apt-get install php{your_php_version}-mbstring # e.g. sudo apt-get installphp5.6-mbstringl to php-mbstring instsll
+
+$ sudo apt-get install php{your_php_version}-xml # e.g. sudo apt-get install php5.6-xml to php-xml instsll
+```
+
 Set up MySQL database, use -u -p flags to provide username and password:
 ```
 $  mysql < database_backup.sql
